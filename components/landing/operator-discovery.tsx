@@ -62,7 +62,8 @@ export default function OperatorDiscovery() {
             transition={{ delay: 0.1 }}
             className="text-[#9F9FA9] text-lg"
           >
-            Browse operators with real-time risk assessment and performance metrics
+            Browse operators with real-time risk assessment and performance
+            metrics
           </motion.p>
         </div>
 
@@ -92,7 +93,10 @@ export default function OperatorDiscovery() {
               </thead>
               <tbody className="divide-y divide-[#27272A80]">
                 {operators.map((op, index) => (
-                  <tr key={index} className="text-white hover:bg-[#27272A40] transition-colors">
+                  <tr
+                    key={index}
+                    className="text-white hover:bg-[#27272A40] transition-colors"
+                  >
                     <td className="p-6 font-medium">{op.name}</td>
                     <td className="p-6 text-[#A1A1AA]">{op.id}</td>
                     <td className="p-6 text-[#A1A1AA]">{op.avs}</td>
@@ -106,8 +110,8 @@ export default function OperatorDiscovery() {
                               op.riskLevel === "Low Risk"
                                 ? "bg-[#032E15] text-[#00C950]"
                                 : op.riskLevel === "Medium Risk"
-                                ? "bg-[#461901] text-[#FE9A00]"
-                                : "bg-[#460808] text-[#FF3B30]"
+                                  ? "bg-[#461901] text-[#FE9A00]"
+                                  : "bg-[#460808] text-[#FF3B30]"
                             }`}
                         >
                           {op.riskLevel}
@@ -134,10 +138,8 @@ export default function OperatorDiscovery() {
                     </td>
                     <td className="p-6 text-right">
                       <button className="text-[#A1A1AA] hover:text-white text-xs transition-colors flex items-center gap-2">
-                        <span>
-                          View
-                          </span>
-                          <ArrowRight size={20} className="-rotate-45" />
+                        <span>View</span>
+                        <ArrowRight size={20} className="-rotate-45" />
                       </button>
                     </td>
                   </tr>

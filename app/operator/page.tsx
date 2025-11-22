@@ -15,7 +15,10 @@ export default function OperatorsPage() {
 
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8">
           <div className="relative w-full md:max-w-md">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-[#71717A]" size={18} />
+            <Search
+              className="absolute left-3 top-1/2 -translate-y-1/2 text-[#71717A]"
+              size={18}
+            />
             <input
               type="text"
               placeholder="Search operators by name, ID, or address..."

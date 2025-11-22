@@ -1,4 +1,3 @@
-
 "use client";
 
 import Link from "next/link";
@@ -77,13 +76,10 @@ export default function Header() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <button className="w-full flex items-center gap-2 justify-center bg-[#155DFC] hover:bg-[#155DFC]/90 text-white px-5 py-3 rounded-xl text-base font-medium transition-colors mt-4">
-                  <WalletIcon/>
+              <WalletIcon />
 
-                  <span>
-
-                  Connect Wallet
-                  </span>
-                </button>
+              <span>Connect Wallet</span>
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -120,12 +116,9 @@ export default function Header() {
               ))}
               <motion.div variants={itemVariants}>
                 <button className="w-full flex items-center gap-2 justify-center bg-[#155DFC] hover:bg-[#155DFC]/90 text-white px-5 py-3 rounded-xl text-base font-medium transition-colors mt-4">
-                  <WalletIcon/>
+                  <WalletIcon />
 
-                  <span>
-
-                  Connect Wallet
-                  </span>
+                  <span>Connect Wallet</span>
                 </button>
               </motion.div>
             </div>
@@ -135,4 +128,3 @@ export default function Header() {
     </header>
   );
 }
-

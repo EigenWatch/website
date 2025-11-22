@@ -18,7 +18,7 @@ interface Operator {
 }
 
 const mockOperators: Operator[] = [
- {
+  {
     id: "3f9c1bfa-81d3-4ea2-9b73-d78c47b9d111",
     name: "AlphaNode",
     icon: "/images/rocket.png",
@@ -27,7 +27,7 @@ const mockOperators: Operator[] = [
     performanceScore: "92",
     delegatorCount: "348",
     operationalDays: "420",
-    isActive: true
+    isActive: true,
   },
   {
     id: "c1e7a960-0b34-4555-a7f5-fb38d2b2eab4",
@@ -38,7 +38,7 @@ const mockOperators: Operator[] = [
     performanceScore: "87",
     delegatorCount: "289",
     operationalDays: "380",
-    isActive: true
+    isActive: true,
   },
   {
     id: "af54f83b-4cdf-4b47-918b-832ee11d987c",
@@ -49,7 +49,7 @@ const mockOperators: Operator[] = [
     performanceScore: "95",
     delegatorCount: "562",
     operationalDays: "590",
-    isActive: true
+    isActive: true,
   },
   {
     id: "310b9f54-6b77-4dcd-aa10-5248af349a51",
@@ -60,7 +60,7 @@ const mockOperators: Operator[] = [
     performanceScore: "73",
     delegatorCount: "144",
     operationalDays: "210",
-    isActive: false
+    isActive: false,
   },
   {
     id: "e7a676e3-f6b4-4e88-a245-7e2a8a62f598",
@@ -71,7 +71,7 @@ const mockOperators: Operator[] = [
     performanceScore: "88",
     delegatorCount: "312",
     operationalDays: "450",
-    isActive: true
+    isActive: true,
   },
   {
     id: "cb167a93-7a23-4cb4-a55c-1cf2c6ae8d72",
@@ -82,7 +82,7 @@ const mockOperators: Operator[] = [
     performanceScore: "91",
     delegatorCount: "267",
     operationalDays: "399",
-    isActive: true
+    isActive: true,
   },
   {
     id: "968cc58e-695f-4c7f-8d94-4fe2d0d07766",
@@ -93,7 +93,7 @@ const mockOperators: Operator[] = [
     performanceScore: "84",
     delegatorCount: "301",
     operationalDays: "350",
-    isActive: true
+    isActive: true,
   },
   {
     id: "1a33cfa0-7df7-4f7b-826d-b451e38f4668",
@@ -104,7 +104,7 @@ const mockOperators: Operator[] = [
     performanceScore: "94",
     delegatorCount: "510",
     operationalDays: "575",
-    isActive: true
+    isActive: true,
   },
   {
     id: "ae13e68e-c6c0-4b9a-ae75-7d894cdfb82b",
@@ -115,7 +115,7 @@ const mockOperators: Operator[] = [
     performanceScore: "69",
     delegatorCount: "108",
     operationalDays: "190",
-    isActive: false
+    isActive: false,
   },
   {
     id: "90ab2f44-162e-4c9e-9b7f-d5e21fdac301",
@@ -126,7 +126,7 @@ const mockOperators: Operator[] = [
     performanceScore: "90",
     delegatorCount: "360",
     operationalDays: "460",
-    isActive: true
+    isActive: true,
   },
   {
     id: "f522674a-df22-4670-b4bb-50195d0b7480",
@@ -137,7 +137,7 @@ const mockOperators: Operator[] = [
     performanceScore: "82",
     delegatorCount: "240",
     operationalDays: "330",
-    isActive: true
+    isActive: true,
   },
   {
     id: "bbdb355a-5fbe-4a48-b33e-a0f32c4278d4",
@@ -148,7 +148,7 @@ const mockOperators: Operator[] = [
     performanceScore: "96",
     delegatorCount: "599",
     operationalDays: "610",
-    isActive: true
+    isActive: true,
   },
   {
     id: "472b94e5-bf6a-4f45-9f92-fa2c3a29be8b",
@@ -159,7 +159,7 @@ const mockOperators: Operator[] = [
     performanceScore: "85",
     delegatorCount: "273",
     operationalDays: "365",
-    isActive: true
+    isActive: true,
   },
   {
     id: "1eeb5c12-567f-44d8-8dc5-7ffb3203123a",
@@ -170,7 +170,7 @@ const mockOperators: Operator[] = [
     performanceScore: "93",
     delegatorCount: "534",
     operationalDays: "580",
-    isActive: true
+    isActive: true,
   },
   {
     id: "913fbdcc-ea3d-4dc5-a3ed-2eedfac4111f",
@@ -181,7 +181,7 @@ const mockOperators: Operator[] = [
     performanceScore: "77",
     delegatorCount: "165",
     operationalDays: "260",
-    isActive: false
+    isActive: false,
   },
   {
     id: "a79f2de5-8bf0-46a0-b2e4-7718134fc88e",
@@ -192,7 +192,7 @@ const mockOperators: Operator[] = [
     performanceScore: "89",
     delegatorCount: "295",
     operationalDays: "400",
-    isActive: true
+    isActive: true,
   },
   {
     id: "0fb16530-6c75-4ac3-bf06-27f3f20da3b7",
@@ -203,7 +203,7 @@ const mockOperators: Operator[] = [
     performanceScore: "92",
     delegatorCount: "452",
     operationalDays: "510",
-    isActive: true
+    isActive: true,
   },
   {
     id: "d49b94c5-7eb8-46c2-b175-01dcb628d578",
@@ -214,7 +214,7 @@ const mockOperators: Operator[] = [
     performanceScore: "86",
     delegatorCount: "255",
     operationalDays: "345",
-    isActive: true
+    isActive: true,
   },
   {
     id: "8ac83ce7-4df9-4a6b-b62b-cdf072a3db01",
@@ -225,7 +225,7 @@ const mockOperators: Operator[] = [
     performanceScore: "95",
     delegatorCount: "523",
     operationalDays: "605",
-    isActive: true
+    isActive: true,
   },
   {
     id: "f2beab77-d6cb-4d8c-9fcb-6d55dd0a3a13",
@@ -236,7 +236,7 @@ const mockOperators: Operator[] = [
     performanceScore: "71",
     delegatorCount: "98",
     operationalDays: "175",
-    isActive: false
+    isActive: false,
   },
 
   {
@@ -248,7 +248,7 @@ const mockOperators: Operator[] = [
     performanceScore: "94",
     delegatorCount: "488",
     operationalDays: "540",
-    isActive: true
+    isActive: true,
   },
   {
     id: "834e6592-2338-4e43-bf87-29c76be98631",
@@ -259,7 +259,7 @@ const mockOperators: Operator[] = [
     performanceScore: "83",
     delegatorCount: "268",
     operationalDays: "360",
-    isActive: true
+    isActive: true,
   },
   {
     id: "aadb0b74-9e75-4e40-8fb9-1c615bc78951",
@@ -270,7 +270,7 @@ const mockOperators: Operator[] = [
     performanceScore: "91",
     delegatorCount: "330",
     operationalDays: "450",
-    isActive: true
+    isActive: true,
   },
   {
     id: "2f61c80d-521f-4743-8581-e48a629ee3a2",
@@ -281,7 +281,7 @@ const mockOperators: Operator[] = [
     performanceScore: "84",
     delegatorCount: "242",
     operationalDays: "340",
-    isActive: true
+    isActive: true,
   },
   {
     id: "e4202ff9-fd6f-4d63-a0dc-b3f62ac1681f",
@@ -292,7 +292,7 @@ const mockOperators: Operator[] = [
     performanceScore: "92",
     delegatorCount: "410",
     operationalDays: "490",
-    isActive: true
+    isActive: true,
   },
   {
     id: "1f654734-ace2-41ab-a72e-f733e25cc5d1",
@@ -303,7 +303,7 @@ const mockOperators: Operator[] = [
     performanceScore: "75",
     delegatorCount: "180",
     operationalDays: "240",
-    isActive: false
+    isActive: false,
   },
   {
     id: "a87cb1fa-91b7-4fe7-99f5-be386677fe21",
@@ -314,7 +314,7 @@ const mockOperators: Operator[] = [
     performanceScore: "96",
     delegatorCount: "566",
     operationalDays: "620",
-    isActive: true
+    isActive: true,
   },
   {
     id: "eab8f8a3-aa78-4c43-9eaa-625cfa62bb0d",
@@ -325,7 +325,7 @@ const mockOperators: Operator[] = [
     performanceScore: "85",
     delegatorCount: "274",
     operationalDays: "355",
-    isActive: true
+    isActive: true,
   },
   {
     id: "2b2dbf10-baf3-4f6d-a06a-d2f41c88f2c0",
@@ -336,7 +336,7 @@ const mockOperators: Operator[] = [
     performanceScore: "93",
     delegatorCount: "495",
     operationalDays: "560",
-    isActive: true
+    isActive: true,
   },
   {
     id: "e3563ba7-a06d-4da0-9529-4bddf21e8ca8",
@@ -347,7 +347,7 @@ const mockOperators: Operator[] = [
     performanceScore: "81",
     delegatorCount: "233",
     operationalDays: "315",
-    isActive: true
+    isActive: true,
   },
   {
     id: "94226bb5-62c0-4ed7-9638-98bc72b59444",
@@ -358,7 +358,7 @@ const mockOperators: Operator[] = [
     performanceScore: "95",
     delegatorCount: "520",
     operationalDays: "600",
-    isActive: true
+    isActive: true,
   },
   {
     id: "f794e02c-8971-4db0-8767-f410a483a1f2",
@@ -369,7 +369,7 @@ const mockOperators: Operator[] = [
     performanceScore: "74",
     delegatorCount: "152",
     operationalDays: "230",
-    isActive: false
+    isActive: false,
   },
   {
     id: "ca1642c2-d42f-4f26-bcf6-76d958d5ed68",
@@ -380,7 +380,7 @@ const mockOperators: Operator[] = [
     performanceScore: "86",
     delegatorCount: "260",
     operationalDays: "358",
-    isActive: true
+    isActive: true,
   },
   {
     id: "13a0f53c-ca9d-4f82-a52c-3ccd71e79199",
@@ -391,7 +391,7 @@ const mockOperators: Operator[] = [
     performanceScore: "94",
     delegatorCount: "482",
     operationalDays: "542",
-    isActive: true
+    isActive: true,
   },
   {
     id: "7f933659-0e8f-4dd1-9fbf-e97f42a51ef0",
@@ -402,7 +402,7 @@ const mockOperators: Operator[] = [
     performanceScore: "83",
     delegatorCount: "231",
     operationalDays: "300",
-    isActive: true
+    isActive: true,
   },
   {
     id: "9a653e7d-510d-4fbe-98bf-b46388e594e0",
@@ -413,7 +413,7 @@ const mockOperators: Operator[] = [
     performanceScore: "92",
     delegatorCount: "505",
     operationalDays: "575",
-    isActive: true
+    isActive: true,
   },
   {
     id: "c68d0c45-3f53-42c9-8e60-b7e9bb2781b3",
@@ -424,7 +424,7 @@ const mockOperators: Operator[] = [
     performanceScore: "82",
     delegatorCount: "245",
     operationalDays: "330",
-    isActive: true
+    isActive: true,
   },
   {
     id: "e91bfdf1-bd38-42ca-bc3a-73e2ce4860d1",
@@ -435,7 +435,7 @@ const mockOperators: Operator[] = [
     performanceScore: "93",
     delegatorCount: "458",
     operationalDays: "510",
-    isActive: true
+    isActive: true,
   },
   {
     id: "c15b2192-4c32-4f2c-a679-419f2bcc5576",
@@ -446,7 +446,7 @@ const mockOperators: Operator[] = [
     performanceScore: "72",
     delegatorCount: "129",
     operationalDays: "205",
-    isActive: false
+    isActive: false,
   },
   {
     id: "7d972b68-53c7-4b79-9fae-e0a47f8e0b5c",
@@ -457,8 +457,8 @@ const mockOperators: Operator[] = [
     performanceScore: "95",
     delegatorCount: "518",
     operationalDays: "590",
-    isActive: true
-  }
+    isActive: true,
+  },
 ];
 
 interface OperatorsTableProps {
@@ -466,9 +466,15 @@ interface OperatorsTableProps {
   hideInactive: boolean;
 }
 
-export default function OperatorsTable({ query, hideInactive }: OperatorsTableProps) {
+export default function OperatorsTable({
+  query,
+  hideInactive,
+}: OperatorsTableProps) {
   const [currentPage, setCurrentPage] = useState(1);
-  const [sortConfig, setSortConfig] = useState<{ key: keyof Operator; direction: "asc" | "desc" } | null>(null);
+  const [sortConfig, setSortConfig] = useState<{
+    key: keyof Operator;
+    direction: "asc" | "desc";
+  } | null>(null);
   const ITEMS_PER_PAGE = 10;
 
   // Helper to parse values for sorting
@@ -479,7 +485,11 @@ export default function OperatorsTable({ query, hideInactive }: OperatorsTablePr
     }
     if (typeof value === "string") {
       // Remove commas and other non-numeric chars if it looks like a number
-      const cleanValue = value.replace(/,/g, "").replace(/%/g, "").replace(/ ETH/g, "").replace(/ people/g, "");
+      const cleanValue = value
+        .replace(/,/g, "")
+        .replace(/%/g, "")
+        .replace(/ ETH/g, "")
+        .replace(/ people/g, "");
       if (!isNaN(Number(cleanValue)) && cleanValue !== "") {
         return Number(cleanValue);
       }
@@ -508,7 +518,10 @@ export default function OperatorsTable({ query, hideInactive }: OperatorsTablePr
 
   const totalPages = Math.ceil(sortedOperators.length / ITEMS_PER_PAGE);
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-  const currentData = sortedOperators.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+  const currentData = sortedOperators.slice(
+    startIndex,
+    startIndex + ITEMS_PER_PAGE,
+  );
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
@@ -516,14 +529,19 @@ export default function OperatorsTable({ query, hideInactive }: OperatorsTablePr
 
   const handleSort = (key: keyof Operator) => {
     let direction: "asc" | "desc" = "asc";
-    if (sortConfig && sortConfig.key === key && sortConfig.direction === "asc") {
+    if (
+      sortConfig &&
+      sortConfig.key === key &&
+      sortConfig.direction === "asc"
+    ) {
       direction = "desc";
     }
     setSortConfig({ key, direction });
   };
 
   const SortIcon = ({ columnKey }: { columnKey: keyof Operator }) => {
-    if (sortConfig?.key !== columnKey) return <ArrowUpDown size={14} className="opacity-50" />;
+    if (sortConfig?.key !== columnKey)
+      return <ArrowUpDown size={14} className="opacity-50" />;
     return (
       <ArrowUpDown
         size={14}
@@ -598,7 +616,10 @@ export default function OperatorsTable({ query, hideInactive }: OperatorsTablePr
                   className="text-white hover:bg-[#27272A40] transition-colors group"
                 >
                   <td className="p-4">
-                    <Link href={`/operator/${op.id}`} className="flex items-center gap-3">
+                    <Link
+                      href={`/operator/${op.id}`}
+                      className="flex items-center gap-3"
+                    >
                       <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center overflow-hidden relative">
                         <Image
                           src={op.icon}
@@ -612,7 +633,9 @@ export default function OperatorsTable({ query, hideInactive }: OperatorsTablePr
                           {op.name}
                         </span>
                         {!op.isActive && (
-                          <span className="text-[10px] text-[#FF3B30]">Inactive</span>
+                          <span className="text-[10px] text-[#FF3B30]">
+                            Inactive
+                          </span>
                         )}
                       </div>
                     </Link>
@@ -624,8 +647,8 @@ export default function OperatorsTable({ query, hideInactive }: OperatorsTablePr
                           op.riskLevel === "Low"
                             ? "bg-[#032E15] text-[#00C950]"
                             : op.riskLevel === "Medium"
-                            ? "bg-[#461901] text-[#FE9A00]"
-                            : "bg-[#460808] text-[#FF3B30]"
+                              ? "bg-[#461901] text-[#FE9A00]"
+                              : "bg-[#460808] text-[#FF3B30]"
                         }`}
                     >
                       {op.riskLevel}
@@ -674,7 +697,9 @@ export default function OperatorsTable({ query, hideInactive }: OperatorsTablePr
           ))}
 
           <button
-            onClick={() => handlePageChange(Math.min(totalPages, currentPage + 1))}
+            onClick={() =>
+              handlePageChange(Math.min(totalPages, currentPage + 1))
+            }
             disabled={currentPage === totalPages}
             className="w-8 h-8 flex items-center justify-center rounded-lg text-[#71717A] hover:text-white hover:bg-[#27272A] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >

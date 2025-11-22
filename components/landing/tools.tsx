@@ -1,7 +1,15 @@
 "use client";
 
 import { motion } from "motion/react";
-import { Shield, TrendingUp, Bell, LayoutDashboard, Search, BellRing, ChartBar } from "lucide-react";
+import {
+  Shield,
+  TrendingUp,
+  Bell,
+  LayoutDashboard,
+  Search,
+  BellRing,
+  ChartBar,
+} from "lucide-react";
 
 const tools = [
   {
@@ -92,7 +100,8 @@ export default function Tools() {
             transition={{ delay: 0.1 }}
             className="text-[#9F9FA9] text-lg"
           >
-            Everything you need to monitor and manage risk across the EigenLayer ecosystem
+            Everything you need to monitor and manage risk across the EigenLayer
+            ecosystem
           </motion.p>
         </div>
 
@@ -116,7 +125,9 @@ export default function Tools() {
               >
                 <tool.icon size={20} />
               </div>
-              <h3 className="text-xl font-medium text-white mb-3">{tool.value}</h3>
+              <h3 className="text-xl font-medium text-white mb-3">
+                {tool.value}
+              </h3>
               <p className="text-[#9F9FA9] text-sm leading-relaxed">
                 {tool.stat}
               </p>

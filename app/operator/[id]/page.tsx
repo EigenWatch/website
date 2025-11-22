@@ -10,11 +10,19 @@ export default function OperatorDetailPage() {
         {/* Header Info */}
         <div className="flex flex-col md:flex-row items-start gap-6 mb-12">
           <div className="w-20 h-20 rounded-2xl bg-white p-1 overflow-hidden shrink-0">
-            <Image src="/images/rocket.png" alt="Rocket as pfp" width={500} height={500} className="w-full h-full bg-white object-contain rounded-xl" />
+            <Image
+              src="/images/rocket.png"
+              alt="Rocket as pfp"
+              width={500}
+              height={500}
+              className="w-full h-full bg-white object-contain rounded-xl"
+            />
           </div>
 
           <div className="flex-1">
-            <h1 className="text-4xl font-medium text-white mb-2">Eigen Yields</h1>
+            <h1 className="text-4xl font-medium text-white mb-2">
+              Eigen Yields
+            </h1>
 
             <div className="flex flex-wrap items-center gap-4 text-sm text-[#A1A1AA] mb-4">
               <div className="flex items-center gap-2">

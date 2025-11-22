@@ -18,8 +18,8 @@ const StatItem = ({ label, value, rating }: StatItemProps) => (
               rating === "Low"
                 ? "bg-[#032E15] text-[#00C950]"
                 : rating === "Medium"
-                ? "bg-[#461901] text-[#FE9A00]"
-                : "bg-[#460808] text-[#FF3B30]"
+                  ? "bg-[#461901] text-[#FE9A00]"
+                  : "bg-[#460808] text-[#FF3B30]"
             }`}
         >
           {rating}

@@ -1,6 +1,16 @@
 "use client";
 
-import { PieChart, Pie, Cell, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip } from "recharts";
+import {
+  PieChart,
+  Pie,
+  Cell,
+  ResponsiveContainer,
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  Tooltip,
+} from "recharts";
 
 const portfolioData = [
   { name: "Eigen Yields", value: 45.2, color: "#3B82F6" },
@@ -46,9 +56,15 @@ export function PortfolioDistributionChart() {
       </ResponsiveContainer>
       <div className="mt-4 space-y-2">
         {portfolioData.map((item) => (
-          <div key={item.name} className="flex items-center justify-between text-sm">
+          <div
+            key={item.name}
+            className="flex items-center justify-between text-sm"
+          >
             <div className="flex items-center gap-2">
-              <div className="w-3 h-3 rounded-full" style={{ backgroundColor: item.color }} />
+              <div
+                className="w-3 h-3 rounded-full"
+                style={{ backgroundColor: item.color }}
+              />
               <span className="text-muted-foreground">{item.name}</span>
             </div>
             <span className="font-medium">{item.value}%</span>
@@ -63,7 +79,10 @@ export function RiskDistributionChart() {
   return (
     <div className="h-[300px] w-full">
       <ResponsiveContainer width="100%" height="100%">
-        <BarChart data={riskData} margin={{ top: 20, right: 0, left: -20, bottom: 0 }}>
+        <BarChart
+          data={riskData}
+          margin={{ top: 20, right: 0, left: -20, bottom: 0 }}
+        >
           <XAxis
             dataKey="name"
             stroke="#71717A"

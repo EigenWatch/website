@@ -19,7 +19,8 @@ export default function CTA() {
               Start Monitoring Your Operators Today
             </h2>
             <p className="text-[#9F9FA9] text-lg max-w-2xl mx-auto mb-10">
-              Connect your wallet to view personalized risk insights, track your delegated operators, and receive real-time alerts.
+              Connect your wallet to view personalized risk insights, track your
+              delegated operators, and receive real-time alerts.
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
@@ -41,7 +42,9 @@ export default function CTA() {
                 <p className="text-[#71717A] text-sm">Operators Tracked</p>
               </div>
               <div>
-                <h3 className="text-3xl font-medium text-white mb-1">2.4M ETH</h3>
+                <h3 className="text-3xl font-medium text-white mb-1">
+                  2.4M ETH
+                </h3>
                 <p className="text-[#71717A] text-sm">Total Value Locked</p>
               </div>
               <div>

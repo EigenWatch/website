@@ -19,14 +19,21 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     if (savedTheme) {
       setTheme(savedTheme);
       document.documentElement.classList.toggle("dark", savedTheme === "dark");
-      document.documentElement.classList.toggle("light", savedTheme === "light");
+      document.documentElement.classList.toggle(
+        "light",
+        savedTheme === "light",
+      );
     } else {
-      const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
+      const systemTheme = window.matchMedia("(prefers-color-scheme: dark)")
+        .matches
         ? "dark"
         : "light";
       setTheme(systemTheme);
       document.documentElement.classList.toggle("dark", systemTheme === "dark");
-      document.documentElement.classList.toggle("light", systemTheme === "light");
+      document.documentElement.classList.toggle(
+        "light",
+        systemTheme === "light",
+      );
     }
   }, []);
 
