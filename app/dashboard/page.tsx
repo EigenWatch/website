@@ -9,6 +9,7 @@ import {
   Activity,
   ChevronRight,
   Wallet,
+  ArrowDownRight,
 } from "lucide-react";
 import {
   PortfolioDistributionChart,
@@ -161,9 +162,12 @@ export default function Dashboard() {
               <div className="text-3xl font-bold mb-1">{stat.value}</div>
               {stat.change && (
                 <div
-                  className={`text-xs px-2 py-1 rounded-full inline-block ${stat.bg} ${stat.color}`}
+                  className={`text-xs px-2 py-1 rounded-full w-fit ${stat.bg} ${stat.color} flex items-center`}
                 >
-                  Low Risk <span className="ml-1">↘ {stat.change}</span>
+                  <span>Low Risk</span>
+                  <span className="ml-1 flex items-center gap-1">
+                    <ArrowDownRight size={14} /> {stat.change}
+                  </span>
                 </div>
               )}
               {stat.subValue && (

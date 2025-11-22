@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-[#09090B] border-t border-white/5 py-8 px-4 md:px-8">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="text-[#71717A] text-sm">
-          © 2024 EigenWatch. All rights reserved.
+          &copy; {new Date().getFullYear()} EigenWatch. All rights reserved.
         </div>
 
         <div className="flex items-center gap-6">
