@@ -134,7 +134,7 @@ const Hero = () => {
             key={index}
             initial={{ opacity: 0, y: -100, scale: 0.8 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
+            transition={{ duration: 0.5, delay: index * 0.2 }}
             className="min-w-[302px] max-w-[302px] bg-[#18181B80] border-[1.33px] border-[#27272A80] flex-1 rounded-[14px] p-6 pb-0.5"
           >
             <div className="flex items-center justify-between mb-3">

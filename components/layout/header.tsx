@@ -5,13 +5,14 @@ import { useState } from "react";
 import { Menu, WalletIcon, X } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 const navLinks = [
   { title: "Dashboard", path: "/dashboard" },
-  { title: "Token", path: "/token" },
-  { title: "Operator", path: "/operator" },
+  { title: "Token", path: "/#" },
+  { title: "Operators", path: "/operator" },
   { title: "AVS", path: "/avs" },
-  { title: "Apps", path: "/apps" },
+  { title: "Apps", path: "/#" },
 ];
 
 const menuVariants = {
@@ -50,7 +51,13 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-xl font-semibold text-white">EigenWatch</span>
+            <Image
+              src="/images/logo.svg"
+              alt="Logo"
+              width={500}
+              height={500}
+              className="w-full h-full object-contain"
+            />
           </Link>
 
           {/* Desktop Navigation */}

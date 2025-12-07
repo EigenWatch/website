@@ -27,34 +27,40 @@ const riskData = [
 
 export function PortfolioDistributionChart() {
   return (
-    <div className="h-[300px] w-full">
-      <ResponsiveContainer width="100%" height="100%">
-        <PieChart>
-          <Pie
-            data={portfolioData}
-            cx="50%"
-            cy="50%"
-            innerRadius={60}
-            outerRadius={100}
-            paddingAngle={2}
-            dataKey="value"
-          >
-            {portfolioData.map((entry, index) => (
-              <Cell key={`cell-${index}`} fill={entry.color} strokeWidth={0} />
-            ))}
-          </Pie>
-          <Tooltip
-            contentStyle={{
-              backgroundColor: "#18181B",
-              borderColor: "#27272A",
-              borderRadius: "8px",
-              color: "#fff",
-            }}
-            itemStyle={{ color: "#fff" }}
-          />
-        </PieChart>
-      </ResponsiveContainer>
-      <div className="mt-4 space-y-2">
+    <div className="flex flex-col h-full">
+      <div className="h-[250px] w-full">
+        <ResponsiveContainer width="100%" height="100%">
+          <PieChart>
+            <Pie
+              data={portfolioData}
+              cx="50%"
+              cy="50%"
+              innerRadius={60}
+              outerRadius={80}
+              paddingAngle={2}
+              dataKey="value"
+            >
+              {portfolioData.map((entry, index) => (
+                <Cell
+                  key={`cell-${index}`}
+                  fill={entry.color}
+                  strokeWidth={0}
+                />
+              ))}
+            </Pie>
+            <Tooltip
+              contentStyle={{
+                backgroundColor: "#18181B",
+                borderColor: "#27272A",
+                borderRadius: "8px",
+                color: "#fff",
+              }}
+              itemStyle={{ color: "#fff" }}
+            />
+          </PieChart>
+        </ResponsiveContainer>
+      </div>
+      <div className="mt-4 space-y-3">
         {portfolioData.map((item) => (
           <div
             key={item.name}
@@ -77,44 +83,50 @@ export function PortfolioDistributionChart() {
 
 export function RiskDistributionChart() {
   return (
-    <div className="h-[300px] w-full">
-      <ResponsiveContainer width="100%" height="100%">
-        <BarChart
-          data={riskData}
-          margin={{ top: 20, right: 0, left: -20, bottom: 0 }}
-        >
-          <XAxis
-            dataKey="name"
-            stroke="#71717A"
-            fontSize={12}
-            tickLine={false}
-            axisLine={false}
-          />
-          <YAxis
-            stroke="#71717A"
-            fontSize={12}
-            tickLine={false}
-            axisLine={false}
-            tickFormatter={(value) => `${value}`}
-          />
-          <Tooltip
-            cursor={{ fill: "#27272A", opacity: 0.4 }}
-            contentStyle={{
-              backgroundColor: "#18181B",
-              borderColor: "#27272A",
-              borderRadius: "8px",
-              color: "#fff",
-            }}
-          />
-          <Bar dataKey="value" radius={[4, 4, 0, 0]}>
-            {riskData.map((entry, index) => (
-              <Cell key={`cell-${index}`} fill={entry.color} />
-            ))}
-          </Bar>
-        </BarChart>
-      </ResponsiveContainer>
-      <div className="mt-4 p-3 rounded-lg bg-[#032E15] border border-[#0166304D] text-[#00C950] text-sm font-medium flex items-center justify-center">
-        ✓ 85% of your portfolio is in low risk operators - well diversified!
+    <div className="flex flex-col h-full max-h-[380px]">
+      <div className="h-[250px] w-full">
+        <ResponsiveContainer width="100%" height="100%">
+          <BarChart
+            data={riskData}
+            margin={{ top: 10, right: 10, left: 0, bottom: 0 }}
+          >
+            <XAxis
+              dataKey="name"
+              stroke="#71717A"
+              fontSize={12}
+              tickLine={false}
+              axisLine={false}
+              dy={10}
+            />
+            <YAxis
+              stroke="#71717A"
+              fontSize={12}
+              tickLine={false}
+              axisLine={false}
+              tickFormatter={(value) => `${value}`}
+            />
+            <Tooltip
+              cursor={{ fill: "#27272A", opacity: 0.4 }}
+              contentStyle={{
+                backgroundColor: "#18181B",
+                borderColor: "#27272A",
+                borderRadius: "8px",
+                color: "#fff",
+              }}
+            />
+            <Bar dataKey="value" radius={[4, 4, 0, 0]}>
+              {riskData.map((entry, index) => (
+                <Cell key={`cell-${index}`} fill={entry.color} />
+              ))}
+            </Bar>
+          </BarChart>
+        </ResponsiveContainer>
+      </div>
+
+      <div className="mt-20 md:mt-auto pt-4">
+        <div className="p-3 rounded-lg bg-[#032E15] border border-[#0166304D] text-[#00C950] text-sm font-medium flex items-center justify-center text-center">
+          ✓ 85% of your portfolio is in low risk operators - well diversified!
+        </div>
       </div>
     </div>
   );
